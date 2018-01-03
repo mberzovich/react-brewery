@@ -9,7 +9,7 @@ class NoMatch extends Component {
       <Segment basic style={styles.fullHeight}>
         <Segment basic textAlign='center'>
           <Image style={styles.centered} size='tiny' src={dpsLogo} alt='DevPoint Studios Logo' />
-          <Header as='h1' style={styles.header}>DevPoint Studios React Assignment</Header>
+          <Header as='h1' style={styles.header}>Clearly You've Been Over-Served!</Header>
         </Segment>
         <Header as='h1' textAlign='center' inverted>
           Page Not Found

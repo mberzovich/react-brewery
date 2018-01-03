@@ -28,7 +28,7 @@ class ApplicationController < ActionController::API
   def brew_client
     @brewery_db ||= BreweryDB::Client.new do |config|
       config.logger = Rails.logger
-      config.api_key = ENV['BREWERYDB_API_KEY']
+      config.api_key = ENV['BREWERYDB_API_KEY=']
     end
   end
 
